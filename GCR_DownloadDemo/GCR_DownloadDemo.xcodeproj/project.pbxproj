@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D50E627AB39256C4ED948FC /* libPods-GCR_DownloadDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD38CBF1CAE23EA90F680C8 /* libPods-GCR_DownloadDemo.a */; };
+		C706BD4622F17F1C00F23676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C706BD4522F17F1C00F23676 /* AppDelegate.m */; };
+		C706BD4922F17F1D00F23676 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C706BD4822F17F1D00F23676 /* ViewController.m */; };
+		C706BD4C22F17F1D00F23676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C706BD4A22F17F1D00F23676 /* Main.storyboard */; };
+		C706BD4E22F17F2800F23676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C706BD4D22F17F2800F23676 /* Assets.xcassets */; };
+		C706BD5122F17F2800F23676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C706BD4F22F17F2800F23676 /* LaunchScreen.storyboard */; };
+		C706BD5422F17F2800F23676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C706BD5322F17F2800F23676 /* main.m */; };
+		C706BD5E22F1803900F23676 /* GCRSmallFileDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C706BD5D22F1803900F23676 /* GCRSmallFileDownloadViewController.m */; };
+		C706BD6122F1835C00F23676 /* GCRNSURLConnectionBigFileDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = C706BD6022F1835C00F23676 /* GCRNSURLConnectionBigFileDownloadController.m */; };
+		C779DF3D22FC292D009DD2A0 /* GCRAFNetworkingDownloadFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = C779DF3C22FC292D009DD2A0 /* GCRAFNetworkingDownloadFileController.m */; };
+		C779DF4122FC2CE4009DD2A0 /* GCRAFNetworkingOfflineResumeDownloadFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = C779DF4022FC2CE4009DD2A0 /* GCRAFNetworkingOfflineResumeDownloadFileController.m */; };
+		C7EAC01922F281F400BAF96B /* GCRURLSessionDownloadFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EAC01822F281F400BAF96B /* GCRURLSessionDownloadFileViewController.m */; };
+		C7EAC01D22F2C83900BAF96B /* GCRURLSessionResumeDownloadFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EAC01C22F2C83900BAF96B /* GCRURLSessionResumeDownloadFileViewController.m */; };
+		C7EAC02122F2E9E300BAF96B /* GCRURLSessionOffLineDownloadFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EAC02022F2E9E300BAF96B /* GCRURLSessionOffLineDownloadFileViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FDD3332DB0FFE08328A26B9 /* Pods-GCR_DownloadDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCR_DownloadDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCR_DownloadDemo/Pods-GCR_DownloadDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4DD38CBF1CAE23EA90F680C8 /* libPods-GCR_DownloadDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCR_DownloadDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C706BD4122F17F1C00F23676 /* GCR_DownloadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCR_DownloadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C706BD4422F17F1C00F23676 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C706BD4522F17F1C00F23676 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C706BD4722F17F1D00F23676 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C706BD4822F17F1D00F23676 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C706BD4B22F17F1D00F23676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C706BD4D22F17F2800F23676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C706BD5022F17F2800F23676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C706BD5222F17F2800F23676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C706BD5322F17F2800F23676 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C706BD5C22F1803900F23676 /* GCRSmallFileDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCRSmallFileDownloadViewController.h; sourceTree = "<group>"; };
+		C706BD5D22F1803900F23676 /* GCRSmallFileDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCRSmallFileDownloadViewController.m; sourceTree = "<group>"; };
+		C706BD5F22F1835C00F23676 /* GCRNSURLConnectionBigFileDownloadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCRNSURLConnectionBigFileDownloadController.h; sourceTree = "<group>"; };
+		C706BD6022F1835C00F23676 /* GCRNSURLConnectionBigFileDownloadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCRNSURLConnectionBigFileDownloadController.m; sourceTree = "<group>"; };
+		C779DF3B22FC292D009DD2A0 /* GCRAFNetworkingDownloadFileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCRAFNetworkingDownloadFileController.h; sourceTree = "<group>"; };
+		C779DF3C22FC292D009DD2A0 /* GCRAFNetworkingDownloadFileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCRAFNetworkingDownloadFileController.m; sourceTree = "<group>"; };
+		C779DF3F22FC2CE4009DD2A0 /* GCRAFNetworkingOfflineResumeDownloadFileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCRAFNetworkingOfflineResumeDownloadFileController.h; sourceTree = "<group>"; };
+		C779DF4022FC2CE4009DD2A0 /* GCRAFNetworkingOfflineResumeDownloadFileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCRAFNetworkingOfflineResumeDownloadFileController.m; sourceTree = "<group>"; };
+		C7EAC01722F281F400BAF96B /* GCRURLSessionDownloadFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCRURLSessionDownloadFileViewController.h; sourceTree = "<group>"; };
+		C7EAC01822F281F400BAF96B /* GCRURLSessionDownloadFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCRURLSessionDownloadFileViewController.m; sourceTree = "<group>"; };
+		C7EAC01B22F2C83900BAF96B /* GCRURLSessionResumeDownloadFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCRURLSessionResumeDownloadFileViewController.h; sourceTree = "<group>"; };
+		C7EAC01C22F2C83900BAF96B /* GCRURLSessionResumeDownloadFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCRURLSessionResumeDownloadFileViewController.m; sourceTree = "<group>"; };
+		C7EAC01F22F2E9E300BAF96B /* GCRURLSessionOffLineDownloadFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCRURLSessionOffLineDownloadFileViewController.h; sourceTree = "<group>"; };
+		C7EAC02022F2E9E300BAF96B /* GCRURLSessionOffLineDownloadFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCRURLSessionOffLineDownloadFileViewController.m; sourceTree = "<group>"; };
+		CB404BB253AE3C5E15AB407B /* Pods-GCR_DownloadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCR_DownloadDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCR_DownloadDemo/Pods-GCR_DownloadDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C706BD3E22F17F1C00F23676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D50E627AB39256C4ED948FC /* libPods-GCR_DownloadDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31073EB65016A271CA44D543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB404BB253AE3C5E15AB407B /* Pods-GCR_DownloadDemo.debug.xcconfig */,
+				2FDD3332DB0FFE08328A26B9 /* Pods-GCR_DownloadDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FD08EC083F27928C5670E9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DD38CBF1CAE23EA90F680C8 /* libPods-GCR_DownloadDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C706BD3822F17F1C00F23676 = {
+			isa = PBXGroup;
+			children = (
+				C706BD4322F17F1C00F23676 /* GCR_DownloadDemo */,
+				C706BD4222F17F1C00F23676 /* Products */,
+				31073EB65016A271CA44D543 /* Pods */,
+				3FD08EC083F27928C5670E9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C706BD4222F17F1C00F23676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C706BD4122F17F1C00F23676 /* GCR_DownloadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C706BD4322F17F1C00F23676 /* GCR_DownloadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C779DF3E22FC2C96009DD2A0 /* AFNetworking下载文件（断点离线） */,
+				C779DF3A22FC28B2009DD2A0 /* AFNetworking下载文件 */,
+				C7EAC01E22F2E62E00BAF96B /* NSURLSession离线下载大文件 */,
+				C7EAC01A22F2C7C300BAF96B /* NSURLConnection断点下载大文件 */,
+				C7EAC01622F27FB200BAF96B /* NSURLSession下载大文件(不离线) */,
+				C706BD5A22F17F9600F23676 /* NSData和NSURLConnection下载小文件 */,
+				C706BD5B22F17FD700F23676 /* NSURLConnection下载大文件 */,
+				C706BD4422F17F1C00F23676 /* AppDelegate.h */,
+				C706BD4522F17F1C00F23676 /* AppDelegate.m */,
+				C706BD4722F17F1D00F23676 /* ViewController.h */,
+				C706BD4822F17F1D00F23676 /* ViewController.m */,
+				C706BD4A22F17F1D00F23676 /* Main.storyboard */,
+				C706BD4D22F17F2800F23676 /* Assets.xcassets */,
+				C706BD4F22F17F2800F23676 /* LaunchScreen.storyboard */,
+				C706BD5222F17F2800F23676 /* Info.plist */,
+				C706BD5322F17F2800F23676 /* main.m */,
+			);
+			path = GCR_DownloadDemo;
+			sourceTree = "<group>";
+		};
+		C706BD5A22F17F9600F23676 /* NSData和NSURLConnection下载小文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C706BD5C22F1803900F23676 /* GCRSmallFileDownloadViewController.h */,
+				C706BD5D22F1803900F23676 /* GCRSmallFileDownloadViewController.m */,
+			);
+			path = "NSData和NSURLConnection下载小文件";
+			sourceTree = "<group>";
+		};
+		C706BD5B22F17FD700F23676 /* NSURLConnection下载大文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C706BD5F22F1835C00F23676 /* GCRNSURLConnectionBigFileDownloadController.h */,
+				C706BD6022F1835C00F23676 /* GCRNSURLConnectionBigFileDownloadController.m */,
+			);
+			path = "NSURLConnection下载大文件";
+			sourceTree = "<group>";
+		};
+		C779DF3A22FC28B2009DD2A0 /* AFNetworking下载文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C779DF3B22FC292D009DD2A0 /* GCRAFNetworkingDownloadFileController.h */,
+				C779DF3C22FC292D009DD2A0 /* GCRAFNetworkingDownloadFileController.m */,
+			);
+			path = "AFNetworking下载文件";
+			sourceTree = "<group>";
+		};
+		C779DF3E22FC2C96009DD2A0 /* AFNetworking下载文件（断点离线） */ = {
+			isa = PBXGroup;
+			children = (
+				C779DF3F22FC2CE4009DD2A0 /* GCRAFNetworkingOfflineResumeDownloadFileController.h */,
+				C779DF4022FC2CE4009DD2A0 /* GCRAFNetworkingOfflineResumeDownloadFileController.m */,
+			);
+			path = "AFNetworking下载文件（断点离线）";
+			sourceTree = "<group>";
+		};
+		C7EAC01622F27FB200BAF96B /* NSURLSession下载大文件(不离线) */ = {
+			isa = PBXGroup;
+			children = (
+				C7EAC01722F281F400BAF96B /* GCRURLSessionDownloadFileViewController.h */,
+				C7EAC01822F281F400BAF96B /* GCRURLSessionDownloadFileViewController.m */,
+			);
+			path = "NSURLSession下载大文件(不离线)";
+			sourceTree = "<group>";
+		};
+		C7EAC01A22F2C7C300BAF96B /* NSURLConnection断点下载大文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C7EAC01B22F2C83900BAF96B /* GCRURLSessionResumeDownloadFileViewController.h */,
+				C7EAC01C22F2C83900BAF96B /* GCRURLSessionResumeDownloadFileViewController.m */,
+			);
+			name = "NSURLConnection断点下载大文件";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C7EAC01E22F2E62E00BAF96B /* NSURLSession离线下载大文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C7EAC01F22F2E9E300BAF96B /* GCRURLSessionOffLineDownloadFileViewController.h */,
+				C7EAC02022F2E9E300BAF96B /* GCRURLSessionOffLineDownloadFileViewController.m */,
+			);
+			path = "NSURLSession离线下载大文件";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C706BD4022F17F1C00F23676 /* GCR_DownloadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C706BD5722F17F2800F23676 /* Build configuration list for PBXNativeTarget "GCR_DownloadDemo" */;
+			buildPhases = (
+				FA3D6B02E4C8AC1854C785B6 /* [CP] Check Pods Manifest.lock */,
+				C706BD3D22F17F1C00F23676 /* Sources */,
+				C706BD3E22F17F1C00F23676 /* Frameworks */,
+				C706BD3F22F17F1C00F23676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCR_DownloadDemo;
+			productName = GCR_DownloadDemo;
+			productReference = C706BD4122F17F1C00F23676 /* GCR_DownloadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C706BD3922F17F1C00F23676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = teamwork;
+				TargetAttributes = {
+					C706BD4022F17F1C00F23676 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = C706BD3C22F17F1C00F23676 /* Build configuration list for PBXProject "GCR_DownloadDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C706BD3822F17F1C00F23676;
+			productRefGroup = C706BD4222F17F1C00F23676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C706BD4022F17F1C00F23676 /* GCR_DownloadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C706BD3F22F17F1C00F23676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C706BD5122F17F2800F23676 /* LaunchScreen.storyboard in Resources */,
+				C706BD4E22F17F2800F23676 /* Assets.xcassets in Resources */,
+				C706BD4C22F17F1D00F23676 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA3D6B02E4C8AC1854C785B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GCR_DownloadDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C706BD3D22F17F1C00F23676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EAC02122F2E9E300BAF96B /* GCRURLSessionOffLineDownloadFileViewController.m in Sources */,
+				C706BD4922F17F1D00F23676 /* ViewController.m in Sources */,
+				C706BD5422F17F2800F23676 /* main.m in Sources */,
+				C7EAC01D22F2C83900BAF96B /* GCRURLSessionResumeDownloadFileViewController.m in Sources */,
+				C779DF3D22FC292D009DD2A0 /* GCRAFNetworkingDownloadFileController.m in Sources */,
+				C7EAC01922F281F400BAF96B /* GCRURLSessionDownloadFileViewController.m in Sources */,
+				C779DF4122FC2CE4009DD2A0 /* GCRAFNetworkingOfflineResumeDownloadFileController.m in Sources */,
+				C706BD4622F17F1C00F23676 /* AppDelegate.m in Sources */,
+				C706BD6122F1835C00F23676 /* GCRNSURLConnectionBigFileDownloadController.m in Sources */,
+				C706BD5E22F1803900F23676 /* GCRSmallFileDownloadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C706BD4A22F17F1D00F23676 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C706BD4B22F17F1D00F23676 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C706BD4F22F17F2800F23676 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C706BD5022F17F2800F23676 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C706BD5522F17F2800F23676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C706BD5622F17F2800F23676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C706BD5822F17F2800F23676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB404BB253AE3C5E15AB407B /* Pods-GCR_DownloadDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GCR_DownloadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.success.demo.GCR-DownloadDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C706BD5922F17F2800F23676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDD3332DB0FFE08328A26B9 /* Pods-GCR_DownloadDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GCR_DownloadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.success.demo.GCR-DownloadDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C706BD3C22F17F1C00F23676 /* Build configuration list for PBXProject "GCR_DownloadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C706BD5522F17F2800F23676 /* Debug */,
+				C706BD5622F17F2800F23676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C706BD5722F17F2800F23676 /* Build configuration list for PBXNativeTarget "GCR_DownloadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C706BD5822F17F2800F23676 /* Debug */,
+				C706BD5922F17F2800F23676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C706BD3922F17F1C00F23676 /* Project object */;
+}
